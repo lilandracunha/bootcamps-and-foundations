@@ -14,10 +14,10 @@ Após criar uma conta no portal Azure, o primeiro passo para atuar com os servi�
 1. Acesse o <a href = "https://portal.azure.com">portal Azure</a> e faça o login através da conta cadastrada;
 
 2. Ao acessar a página inicial do portal, selecione a opção "<i>+ Create a resource</i>/+ Criar um recurso", pesquise por Azure Machine Learning e, ao localizá-lo, clique em "<i>Create</i>/Criar":
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/createAzureMLResource.png" align = "center"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/createAzureMLResource.png" align = "center"/>
 <br>
 A opção selecionada acima irá carregar a página de criação do recurso <i><b>Azure Machine Learning</b></i>, cujas configurações que serão preenchidas podem ser visualizadas a seguir:
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/createAzureMLResourceSettings.png" align = "center"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/createAzureMLResourceSettings.png" align = "center"/>
 
   - <b><i>Subscription</i>/Assinatura</b>: Sua assinatura do Azure - Por padrão, este campo já estará preenchido conforme a assinatura vigente na conta;
     - <b><i>Resource group</i>/Grupo de recursos</b>: Um grupo é uma coleção de recursos que compartilham o mesmo ciclo de vida, permissões e políticas - Selecione um criado anteriormente ou crie um novo grupo de recursos; 
@@ -42,7 +42,7 @@ A opção selecionada acima irá carregar a página de criação do recurso <i><
 <p align = "justify">Para este laboratório será utilizado um <a href = "https://capitalbikeshare.com/system-data"><i>dataset</i> de detalhes históricos de aluguel de bicicletas</a> e o objetivo é treinar um modelo que prevê a quantidade de aluguéis esperada em um determinado dia com base em características sazonais e meteorológicas.
 
 1. No <a href = "https://ml.azure.com/?azure-portal=true">estúdio Azure Machine Learning</a>, dentro do espaço de trabalho criado, acesse a opção ML Automatizado;
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/createNewAutomatedML.png" align = "center"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/createNewAutomatedML.png" align = "center"/>
 
 2. Crie um novo serviço de ML automatizado ("<i>+ New Automated ML job</i>/+ Novo trabalho de ML automatizado") com as configurações vistas logo abaixo, clicando em "<i>Next</i>/Avançar" conforme necessário para prosseguir:\
     <b><i>Basic settings</i>/Configurações básicas:</b>
@@ -72,7 +72,7 @@ A opção selecionada acima irá carregar a página de criação do recurso <i><
             - <b><i>Skip rows</i>/Ignorar linhas</b>: ```None/Nenhuma```;
             - <b><i>Dataset contains multi-line data</i>/Conjunto de dados com dados de várias linhas</b>: Não marcar esta opção;\
         Finalizando estas configurações, teremos a seguinte visualização: 
-        <img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/createDatasetSettings.png" align = "center"/>
+        <img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/createDatasetSettings.png" align = "center"/>
                 
         - <b><i>Schema</i>/Esquema</b>:
             - Para esta opção iremos selecionar tudo, exceto "<i>Path</i>";
@@ -88,7 +88,7 @@ A opção selecionada acima irá carregar a página de criação do recurso <i><
         - <b><i>Explain best model</i>/Explicar o melhor modelo</b>: Desmarque esta opção;
         - <b><i>Use all supported models</i>/Usar todos os modelos suportados</b>: Desmarque esta opção. Para o laboratório iremos restringir o modelo para tentar apenas algoritmos específicos;
         - <b><i>Allowed models</i>/Modelos permitidos</b>: Selecionar apenas os modelos ```RandomForest``` e ```LightGBM```. Em outros cenários faz-se importante testar o máximo possível, porém cada modelo testado aumenta o tempo de execução do job;
-        <img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/automatedMLTaskSettings.png" align = "center"/>
+        <img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/automatedMLTaskSettings.png" align = "center"/>
         
     - <b><i>Limits</i>/Limites (expanda esta seção para visualizar as opções)</b>:
         - <b><i>Max trials</i>/Máximo de avaliações</b>: ```3```;
@@ -110,7 +110,7 @@ A opção selecionada acima irá carregar a página de criação do recurso <i><
     - <b><i>Virtual machine size</i>/Tamanho da máquina virtual</b>: ```Standard_DS3_V2```;
     - <b><i>Number of instances</i>/Número de instâncias</b>: ```1```.
 3. Finalizando a etapa acima (<i>Compute</i>) basta clicar em <i>Next</i>/Avançar para revisar o trabalho:
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/submitTrainingJob.png" align = "center"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/submitTrainingJob.png" align = "center"/>
 
 4. Após revisão, clicar em "<i>Submit training job</i>/Enviar trabalho de treinamento" e aguardar a conclusão do envio.
 
@@ -119,12 +119,12 @@ A opção selecionada acima irá carregar a página de criação do recurso <i><
 ## Validando as métricas aplicadas
 <p align = "justify">Após a conclusão do envio do trabalho é possível visualizar o resumo do que foi executado através da guia <i>Overview</i>/Visão geral. Dentro desta guia, selecione o melhor modelo retornado:
 <br>  
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/bestModelSummary.png" align = "center"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/bestModelSummary.png" align = "center"/>
 
 <p align = "justify">Selecionando o melhor modelo serão apresentadas informações sobre ele e, neste momento, iremos acessar a guia <i>Metrics</i>/Métricas.
 <p align = "justify">Através da guia <i>Metrics</i> podemos visualizar, dentre outras informações importantes, dois gráficos denominados <b><i>residuals</i></b> e <b><i>predicted_true</i></b>:
 <br>  
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/bestModelMetrics.png" align = "center"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/bestModelMetrics.png" align = "center"/>
 
 <p align = "justify">Observe os gráficos citados acima, pois eles mostram o desempenho do modelo: O gráfico <b><i>residuals</i></b> mostra os resíduos, as diferenças entre os valores previstos e os reais, enquanto que o gráfico <b><i>predicted_true</i></b> compara os valores previstos com os valores verdadeiros. 
 
@@ -178,15 +178,15 @@ A opção selecionada acima irá carregar a página de criação do recurso <i><
         ]
     }
     ```
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/predictRentals.png" align = "center"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/predictRentals.png" align = "center"/>
 
 <br>
 
 <p align = "justify">É possível simular outros valores, para isto, basta alterar os campos desejados no JSON do <i>input</i> apresentado na etapa 3 desta seção e testar novamente.
 <p align = "justify">Após o final da criação do modelo, o Azure automaticamente gera o <i>script</i> e um <i>notebook</i> para execução que podem ser acessados no menu esquerdo através do caminho: <b>Notebooks > Users > live > job criado</b>. Caso deseje consultar os documentos criados automaticamente durante o meu teste, acesse os links a seguir:
 
-  - <a href = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/python/autoMLScript.py">Auto ML Generated Code: Script Python</a>
-  - <a href = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/python/autoMLScript_runNotebook.ipynb">Auto ML Generated Code: Run notebook</a>
+  - <a href = "https://github.com/lilandracunha/bootcamps-and-foundations/blob/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/python/autoMLScript.py">Auto ML Generated Code: Script Python</a>
+  - <a href = "https://github.com/lilandracunha/bootcamps-and-foundations/blob/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/python/autoMLScript_runNotebook.ipynb">Auto ML Generated Code: Run notebook</a>
 
 <br><br>
 
@@ -195,7 +195,7 @@ A opção selecionada acima irá carregar a página de criação do recurso <i><
 <p align = "justify">Para a exclusão do serviço, no estúdio Azure Machine Learning, acesse a guia <i>Endpoints</i>/Pontos de extremidade, selecione o serviço criado (predict-rentals, por exemplo) e siga para <i>Delete</i>/Excluir. 
 
 <br>
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/deleteEndpoint.png"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/deleteEndpoint.png"/>
 
 > [!WARNING]
 > Excluir o serviço na guia <i>Endpoints</i>/Pontos de extremidade garante que sua assinatura não sofrerá cobranças por recursos de computação, porém ainda haverá a cobrança relacionada ao armazenamento dos dados enquanto o espaço de trabalho existir na sua conta.
@@ -205,6 +205,6 @@ A opção selecionada acima irá carregar a página de criação do recurso <i><
 2. Clique em <i>Delete resource group</i>/Excluir grupo de recurso, digite o nome do recurso para confirmação e siga para <i>Delete</i>.
 
 <br>
-<img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/lab01_automatedML/assets/confirmationDeleteResource.png"/>
+<img src = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML/assets/confirmationDeleteResource.png"/>
 
 <br><br>

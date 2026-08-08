@@ -10,7 +10,7 @@ Maiores informações sobre o bootcamp podem ser visualizadas a seguir:
 <br>
 
 <a href = "https://web.dio.me/track/microsoft-azure-ai-fundamentals">
-  <img src = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/blob/main/assets/title_microsoft_azureAI_fundamentals.png" align = "center"/>
+  <img src = "https://github.com/lilandracunha/bootcamps-and-foundations/blob/main/bootcamps/dio-microsoft-azure-ai-fundamentals/assets/title_microsoft_azureAI_fundamentals.png" align = "center"/>
 </a>
 <br><br>
 
@@ -18,8 +18,8 @@ Maiores informações sobre o bootcamp podem ser visualizadas a seguir:
 
 | Título do Projeto | Arquivo |
 | :---------- | :------------------------------------------ |
-| Azure Machine Learning | <a href = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/tree/main/lab01_automatedML">lab01_automatedML</a> |
-| Análise de imagem 4.0 com o AI Vision Service | <a href = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/tree/main/lab02_visionStudio">lab02_visionStudio</a> |
-| Análise de sentimentos com Language Studio no Azure AI | <a href = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/tree/main/lab03_languageStudio">lab03_languageStudio</a> |
-| Utilizando AI Search para indexação e consulta de dados | <a href = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/tree/main/lab04_cognitiveSearch">lab04_cognitiveSearch</a> |
-| Explorando os recursos de IA Generativa com Copilot e OpenAI | <a href = "https://github.com/lilandracunha/dio-bootcamp-microsoft-azureAI-fundamentals/tree/main/lab05_openAI">lab05_openAI</a> |
+| Azure Machine Learning | <a href = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab01_automatedML">lab01_automatedML</a> |
+| Análise de imagem 4.0 com o AI Vision Service | <a href = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab02_visionStudio">lab02_visionStudio</a> |
+| Análise de sentimentos com Language Studio no Azure AI | <a href = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab03_languageStudio">lab03_languageStudio</a> |
+| Utilizando AI Search para indexação e consulta de dados | <a href = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab04_cognitiveSearch">lab04_cognitiveSearch</a> |
+| Explorando os recursos de IA Generativa com Copilot e OpenAI | <a href = "https://github.com/lilandracunha/bootcamps-and-foundations/tree/main/bootcamps/dio-microsoft-azure-ai-fundamentals/lab05_openAI">lab05_openAI</a> |
